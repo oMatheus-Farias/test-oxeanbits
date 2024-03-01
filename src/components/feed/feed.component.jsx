@@ -62,9 +62,16 @@ const FeedComponent = () => {
           data={categories}
           dataItemKey="Category"
           textField="CategoryName"
-          defaultItem={{ Category: null, CategoryName: "Todos os Produtos" }}
+          defaultItem={{ Category: null, CategoryName: "Todos" }}
           onChange={handleDropDownChange}
-          className={styles.dropDownList}
+          style={{
+            width: "100%",
+            padding: "0.75em",
+            fontSize: "1em",
+            fontWeight: 600,
+            backgroundColor: "#fff",
+            color: "#07061b",
+          }}
         />
         <Grid
           data={process(products, dataState)}
