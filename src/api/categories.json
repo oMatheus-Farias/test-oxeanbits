@@ -1,0 +1,14 @@
+[
+  { "CategoryID": 1, "CategoryName": "Eletrônicos", "Category": "electronics" },
+  { "CategoryID": 2, "CategoryName": "Jóias", "Category": "jewelery" },
+  {
+    "CategoryID": 3,
+    "CategoryName": "Roupas para Homens",
+    "Category": "men's clothing"
+  },
+  {
+    "CategoryID": 4,
+    "CategoryName": "Roupas para Mulheres",
+    "Category": "women's clothing"
+  }
+]
