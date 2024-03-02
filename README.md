@@ -30,7 +30,7 @@ Este projeto é uma aplicação React.js que utiliza os poderosos componentes do
 2. Navegue até o diretório do projeto: `cd test-oxeanbits`
 3. Instale as dependências: `npm install` (ou use o gerenciador de pacotes apropriado)
 4. No diretório raiz do projeto crie um arquivo .env
-5. Neste arquivo .env insira uma variavel de ambiente -> REACT_APP_NOME="api_url" (substitua NOME pelo nome que desejar e "api_url" por "https://fakestoreapi.com/products") 
+5. Neste arquivo .env insira uma variável de ambiente -> REACT_APP_NOME="api_url" (substitua NOME pelo nome que desejar e "api_url" por "https://fakestoreapi.com/products") 
 6. Inicie o servidor: `npm start`
 7. O aplicativo estará disponível no localhost que aparecera no seu painel ex: [http://localhost:3000](http://localhost:3000/)
 8. Para executar os testes, utilize `npm test`.
