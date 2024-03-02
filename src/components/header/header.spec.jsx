@@ -11,4 +11,12 @@ describe("HeaderComponent", () => {
 
     expect(logoImage).toBeInTheDocument();
   });
+
+  it("should check if the class is correct", () => {
+    render(<HeaderComponent />);
+
+    const headerElement = screen.getByTestId("header");
+
+    expect(headerElement).toHaveClass("headerContent");
+  });
 });
