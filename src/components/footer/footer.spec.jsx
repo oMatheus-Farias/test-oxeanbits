@@ -10,4 +10,11 @@ describe("FooterComponent", () => {
     const footer = screen.getByText(/Oxeanbits © 2024/i);
     expect(footer).toBeInTheDocument();
   });
+
+  it("should check if the class is correct", () => {
+    render(<FooterComponent />);
+
+    const footerElement = screen.getByTestId("footer");
+    expect(footerElement).toHaveClass("footerContainer");
+  });
 });

@@ -2,7 +2,7 @@ import styles from "./footer.module.css";
 
 const FooterComponent = () => {
   return (
-    <footer className={styles.footerContainer}>
+    <footer data-testid="footer" className={styles.footerContainer}>
       <p>Oxeanbits © 2024</p>
     </footer>
   );
