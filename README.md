@@ -33,7 +33,7 @@ Este projeto é uma aplicação React.js que utiliza os poderosos componentes do
 5. Neste arquivo .env insira uma variável de ambiente -> REACT_APP_NOME="api_url" (substitua NOME pelo nome que desejar e "api_url" por "https://fakestoreapi.com/products") 
 6. Inicie o servidor: `npm start`
 7. O aplicativo estará disponível no localhost que aparecera no seu painel ex: [http://localhost:3000](http://localhost:3000/)
-8. Para executar os testes, utilize `npm test`.
+8. Para executar os testes, utilize `npm test`. Certifique-se de que está no diretório correto.
 
 ### 📦 Tecnologias usadas
 
